@@ -8,7 +8,7 @@ document.getElementById('startCountdown').addEventListener('click', function() {
         const diff = dataNascimento - now;
 
         if (diff <= 0) {
-            countdownElement.innerHTML = "A data chegou!";
+            countdownElement.innerHTML = "A data chegou! Feliz Aniversário!";
             clearInterval(interval);
             return;
         }
