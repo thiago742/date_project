@@ -1,0 +1,48 @@
+.infos-bar {
+    padding: 16px 24px;
+    background-color: #2e489e;
+    border-radius: 15px;
+    width: 60%;
+    margin: 0 auto;
+    
+    &__info {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 640px) {
+            display: block;
+            text-align: center;
+        }
+
+        &__item {
+
+            font-size: 14px;
+
+            @media (max-width: 640px) {
+                margin-bottom: 16px;
+            }
+
+            b {
+                font-size: 18px;
+            }
+        }
+
+        &__input {
+            background-color: #192652;
+            border: none;
+            border-radius: 15px;
+            padding: 12px;
+        }
+    }
+}
+
+#startCountdown {
+    background-color: #1d803a;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+
+    @media (max-width: 640px) {margin-top: 15px;}
+}
